@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/composed
+    username: spring
+    password: secret
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  level:
+    org.jetbrains.exposed.sql: DEBUG
+    org.jetbrains.exposed.sql.statements: TRACE
+    Exposed: DEBUG
