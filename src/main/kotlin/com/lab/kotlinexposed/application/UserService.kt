@@ -1,7 +1,7 @@
 package com.lab.kotlinexposed.application
 
 import com.lab.kotlinexposed.application.port.out.UserPersistencePort
-import com.lab.kotlinexposed.domain.User
+import com.lab.kotlinexposed.domain.user.User
 import org.springframework.stereotype.Service
 
 @Service

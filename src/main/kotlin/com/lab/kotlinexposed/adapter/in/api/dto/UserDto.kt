@@ -2,7 +2,7 @@ package com.lab.kotlinexposed.adapter.`in`.api.dto
 
 import com.lab.kotlinexposed.application.CreateUserCommand
 import com.lab.kotlinexposed.application.UpdateUserCommand
-import com.lab.kotlinexposed.domain.User
+import com.lab.kotlinexposed.domain.user.User
 import java.time.LocalDateTime
 
 data class CreateUserRequest(

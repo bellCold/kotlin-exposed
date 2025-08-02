@@ -3,7 +3,7 @@ package com.lab.kotlinexposed.adapter.out.persistence
 import com.lab.kotlinexposed.application.CreateUserCommand
 import com.lab.kotlinexposed.application.UpdateUserCommand
 import com.lab.kotlinexposed.application.port.out.UserPersistencePort
-import com.lab.kotlinexposed.domain.User
+import com.lab.kotlinexposed.domain.user.User
 import org.jetbrains.exposed.sql.transactions.transaction
 import org.springframework.stereotype.Repository
 import java.time.LocalDateTime

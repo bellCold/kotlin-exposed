@@ -2,7 +2,7 @@ package com.lab.kotlinexposed.application.port.out
 
 import com.lab.kotlinexposed.application.CreateUserCommand
 import com.lab.kotlinexposed.application.UpdateUserCommand
-import com.lab.kotlinexposed.domain.User
+import com.lab.kotlinexposed.domain.user.User
 
 interface UserPersistencePort {
     fun save(createUserCommand: CreateUserCommand): User
